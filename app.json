@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/read/read",
+    "pages/tabBar/flag/flag",
+    "pages/tabBar/about/about",
+    "pages/tabBar/me/me",
+    "pages/detail/detail",
+    "pages/detail/about_detail",
+    "pages/record/record",
+    "pages/message/message",
+    "pages/hsbcWebview/hsbcWebview"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "rpxCalcMaxDeviceWidth": 1024,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#D22A24",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "z-index": 999,
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/resources/home_unsel.png",
+        "selectedIconPath": "static/resources/home_sel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/read/read",
+        "iconPath": "static/resources/read_unsel.png",
+        "selectedIconPath": "static/resources/read_sel.png",
+        "text": "文"
+      },
+      {
+        "pagePath": "pages/tabBar/flag/flag",
+        "iconPath": "static/resources/flag_unsel.png",
+        "selectedIconPath": "static/resources/flag_sel.png",
+        "text": "武"
+      },
+      {
+        "pagePath": "pages/tabBar/about/about",
+        "iconPath": "static/resources/about_unsel.png",
+        "selectedIconPath": "static/resources/about_sel.png",
+        "text": "道"
+      },
+      {
+        "pagePath": "pages/tabBar/me/me",
+        "iconPath": "static/resources/me_unsel.png",
+        "selectedIconPath": "static/resources/me_sel.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

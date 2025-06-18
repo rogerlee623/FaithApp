@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "道",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "usingComponents": {
+    "entry-modal": "../../../components/entryModal"
+  }
+}

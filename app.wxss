@@ -1,0 +1,38 @@
+:root {
+	uni-color-gray: #808080;
+	uni-color-black: #333333;
+}
+@font-face {
+  font-family: Catalpa;
+  src:url('https://trip.chinahood.net/assets/wechaapp/font/Catalpa-Extralight.ttf');
+}
+.time-catalpa {
+	font-family: catalpa!important;
+}
+.app-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Catalpa;
+}
+.logo {
+	width: 141rpx;
+	height: 90rpx;
+	margin: 90rpx auto 60rpx auto;
+}
+.modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(255, 255, 255, 0.95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.modal_bg {
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

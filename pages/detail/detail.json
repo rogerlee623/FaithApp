@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#f9e7b7",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "message-modal": "../../components/messageModal"
+  }
+}
